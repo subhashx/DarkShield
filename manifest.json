@@ -1,0 +1,21 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/GB-19.png",
+      "default_popup": "popup.html",
+      "default_title": "DarkShield"
+   },
+   "description": "Block known pornographic , phishing and  malware domains",
+   "icons": {
+      "128": "images/GB-128.png",
+      "16": "images/GB-19.png",
+      "48": "images/GB-48.png"
+   },
+   "manifest_version": 2,
+   "name": "DarkShield",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "version": "1.7"
+}
